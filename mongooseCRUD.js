@@ -13,7 +13,7 @@ db(function(err){
         //4.判断数据库连接状态.成功CRUD,错误报告
         //console.log('操作数据库的代码');
         stuModel.create({//stuModel 可改
-          stu_id:'12',
+          stu_id:'012',
           age:100,
           sex:'男',
           price:'11.5k',
