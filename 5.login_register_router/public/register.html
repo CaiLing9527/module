@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <style>
+        body{
+            width: 1100px;
+            background-color: antiquewhite;
+        }
+        #form{
+            width: 200px;
+            margin: 100px auto;
+            background-color: rgba(125, 213, 221, 0.8);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="form">
+        <form action="http://localhost:3000/register" method="post">
+            邮箱:<input type='email' name="email"><br>
+            昵称:<input type='text' name="nick_name"><br>
+            密码:<input type='password' name="password"><br>
+            重复密码:<input type='password' name="re_password"><br>
+            <input type="submit" value="注册">
+        </form>
+</div>
+</body>
+</html>
